@@ -1,0 +1,76 @@
+@charset "utf-8";
+/* Font
+---------------------------------------------------- */
+* { font-family: 'LiHei Pro', '微軟正黑體', Helvetica, Arial, Verdana !important; }
+[class*=uk-icon-] { font-family: FontAwesome !important; }
+[class*=fa-] { font-family: FontAwesome !important; }
+
+html {font-size: 16px}
+body {font-size: 1rem/1.5} /* 1rem x 16px = 16px , line-height=1.5 */
+h1 {font-size: 1.875rem} /* 30px / 16px = 1.625rem */
+h2 {font-size: 1.6875rem} /* 27px */
+h3 {font-size: 1.5rem} /* 24px */
+h4 {font-size: 1.3125rem} /* 21px */
+h5 {font-size: 1.125rem} /* 18px */
+footer, small {font-size: 0.875rem} /* 14px */
+strong {font-weight: bold}
+/* End Font
+---------------------------------------------------- */
+
+/* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ Style */
+
+/* fullscreen bg
+---------------------------------------------------- */
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+html, body {
+    height: 100%;
+    width: 100%;
+}
+body {
+    display: table;
+}
+.gotoTop {
+    opacity: 0;
+    width: 40px !important;
+    height: 40px;
+}
+.gotoTop.uk-active {
+    top: inherit !important;
+    left: inherit !important;
+    opacity: 1;
+}
+.gotoTop a {
+    color: white;
+    display: block;
+    position: fixed;
+    width: 40px !important;
+    height: 40px;
+    bottom: 10px;
+    right: 10px;
+    line-height: 40px;
+    text-align: center;
+    background-color: rgba(33, 61, 84, 0.2);
+    border-radius: 10px;
+}
+/* End of fullscreen bg
+---------------------------------------------------- */
+
+:hover {transition: all 500ms ease}
+.mainContainer {padding: 15px 0}
+
+/* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ End of Style */
+
+@media (min-width:768px) {
+}
+
+@media (min-width:992px) {
+}
+
+@media (min-width:1200px) {
+}
